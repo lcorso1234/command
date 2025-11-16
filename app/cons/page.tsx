@@ -25,7 +25,7 @@ export default function ConsPage() {
             Common frustrations teams face when relying on off-the-shelf fleet and security tech.
           </p>
         </header>
-        <ul className="list-disc space-y-3 pl-5 text-white/90">
+        <ul className="list-disc space-y-3 pl-5 text-white/90 pb-[1vw]">
           {cons.map((item) => (
             <li key={item}>{item}</li>
           ))}

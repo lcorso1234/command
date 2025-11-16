@@ -27,9 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#353e43] text-slate-100`}
       >
-        <div className="min-h-screen">{children}</div>
+        <div className="min-h-screen pb-[160px] sm:pb-[120px]">{children}</div>
         <FloatingNav />
       </body>
     </html>

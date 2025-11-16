@@ -28,7 +28,7 @@ export default function ProsPage() {
             transparent.
           </p>
         </header>
-        <ul className="list-disc space-y-3 pl-5 text-white/90">
+        <ul className="list-disc space-y-3 pl-5 text-white/90 pb-[1vw]">
           {pros.map((item) => (
             <li key={item}>{item}</li>
           ))}
