@@ -10,7 +10,7 @@ export default function HomePage() {
   const handleSaveContact = useCallback(() => {
     const link = document.createElement("a");
     link.href = "/contact.vcf";
-    link.download = "jung-tech-contact.vcf";
+    link.download = "ISP Technology.vcf";
     link.style.display = "none";
     document.body.appendChild(link);
     link.click();

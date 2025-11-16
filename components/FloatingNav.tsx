@@ -12,7 +12,7 @@ const navLinks = [
 const saveContactLink = {
   label: "Save Contact",
   href: "/contact.vcf",
-  download: "jung-tech-contact.vcf",
+  download: "ISP Technology.vcf",
 };
 
 export default function FloatingNav() {

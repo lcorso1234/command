@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jung Tech Studio",
+  title: "ISP Technology",
   description:
-    "Behind-the-scenes tech partner for founders, studios, and boutique agencies.",
+    "Driver safety technology built by ISP Security Inc. to protect fleets, cargo, and operations.",
 };
 
 export default function RootLayout({
