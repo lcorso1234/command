@@ -22,12 +22,14 @@ export default function HomePage() {
       <main className="mx-auto flex min-h-screen max-w-5xl flex-col gap-12 px-6 py-20 pb-44 text-left text-[18px] leading-relaxed sm:px-8 lg:flex-row lg:items-center lg:pb-48">
         <div className="flex-1 space-y-3">
           <p className="text-sm uppercase tracking-[0.4em] text-white/70">
-            ISP Technology
+            Why you should choose others over us
           </p>
           <p className="text-4xl font-black leading-tight text-white sm:text-5xl">
-            Driver Safety Advantage
+            The Driver Safety Advantage.
           </p>
-          <p className="text-base text-white/80">Control All of Your Assets.</p>
+          <p className="text-base text-white/80">
+            <strong className="text-white">Control All of Your Assets.</strong>
+          </p>
           <p className="text-base text-white/80">
             Built by a security company that has recovered billions in loads.
           </p>
@@ -40,8 +42,8 @@ export default function HomePage() {
             aria-label="Tap the hero image to save Jung Tech contact info"
           >
             <Image
-              src="/robin.png"
-              alt="Hooded technologist working on a laptop"
+              src="/isp.png"
+              alt="Security expert reviewing data dashboards"
               fill
               className="object-contain drop-shadow-[0_25px_45px_rgba(0,0,0,0.55)]"
               sizes="(max-width: 768px) 80vw, 420px"

@@ -7,7 +7,7 @@ export default function ValuesPage() {
             Values
           </p>
           <p className="text-4xl font-semibold text-white">
-            Control all of your assets.
+            <strong className="text-white">Control all of your assets.</strong>
           </p>
           <p className="text-base text-white/80">
             The vision built in America, and designed in Ukraine (Design Capital
