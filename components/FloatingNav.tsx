@@ -11,7 +11,7 @@ const navLinks = [
 
 const saveContactLink = {
   label: "Save Contact",
-  href: "/contact.vcf",
+  href: "/contact",
   download: "ISP Technology.vcf",
 };
 
