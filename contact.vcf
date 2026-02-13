@@ -1,10 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Scott Johnson;;;
+N:Johnson;Bruce;;;
 FN:Bruce Johnson
 ORG:ISP Security Inc.
-TEL;TYPE=CELL:708.277.3609
-EMAIL:scottjohnson9209@gmail.com
+TEL;TYPE=CELL:+1-708-277-3609
+EMAIL;TYPE=INTERNET:scottjohnson9209@gmail.com
 URL:https://ispinvestigations.com
 NOTE:Hire trained police officers
 END:VCARD

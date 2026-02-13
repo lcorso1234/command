@@ -1,0 +1,50 @@
+0 verbose cli /Users/lawrencecorso/.nvm/versions/node/v22.15.0/bin/node /Users/lawrencecorso/.nvm/versions/node/v22.15.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:/Users/lawrencecorso/.nvm/versions/node/v22.15.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/lawrencecorso/Desktop/Development/COmmand/command/.npmrc
+5 silly config load:file:/Users/lawrencecorso/.npmrc
+6 silly config load:file:/Users/lawrencecorso/.nvm/versions/node/v22.15.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--package-lock-only"
+9 verbose logfile logs-max:10 dir:/Users/lawrencecorso/Desktop/Development/COmmand/command/.npm-cache/_logs/2026-02-13T20_29_20_661Z-
+10 verbose logfile /Users/lawrencecorso/Desktop/Development/COmmand/command/.npm-cache/_logs/2026-02-13T20_29_20_661Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+14 silly idealTree buildDeps
+15 http cache https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz 1ms (cache hit)
+16 silly tarball no local data for https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz. Extracting by manifest.
+17 http fetch GET https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz attempt 1 failed with ENOTFOUND
+18 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with ENOTFOUND
+19 http fetch GET https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz attempt 2 failed with ENOTFOUND
+20 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with ENOTFOUND
+21 http fetch GET https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz attempt 3 failed with ENOTFOUND
+22 verbose type system
+23 verbose stack FetchError: request to https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+23 verbose stack     at ClientRequest.<anonymous> (/Users/lawrencecorso/.nvm/versions/node/v22.15.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+23 verbose stack     at ClientRequest.emit (node:events:518:28)
+23 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+23 verbose stack     at _destroy (node:_http_client:898:9)
+23 verbose stack     at onSocketNT (node:_http_client:918:5)
+23 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+24 error code ENOTFOUND
+25 error syscall getaddrinfo
+26 error errno ENOTFOUND
+27 error network request to https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.17.tgz failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+28 error network This is a problem related to network connectivity.
+28 error network In most cases you are behind a proxy or have bad network settings.
+28 error network
+28 error network If you are behind a proxy, please make sure that the
+28 error network 'proxy' config is set properly.  See: 'npm help config'
+29 silly unfinished npm timer reify 1771014560928
+30 silly unfinished npm timer reify:loadTrees 1771014560928
+31 silly unfinished npm timer idealTree:buildDeps 1771014560996
+32 silly unfinished npm timer idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi 1771014560997
+33 verbose cwd /Users/lawrencecorso/Desktop/Development/COmmand/command
+34 verbose os Darwin 25.2.0
+35 verbose node v22.15.0
+36 verbose npm  v10.9.2
+37 verbose exit 1
+38 verbose code 1
+39 error A complete log of this run can be found in: /Users/lawrencecorso/Desktop/Development/COmmand/command/.npm-cache/_logs/2026-02-13T20_29_20_661Z-debug-0.log
